@@ -1,0 +1,17 @@
+<div>
+	<form method="post">
+		{% csrf_token %}
+		<label>Put a Number</label>
+		<input type="text" id="value1" value="" placeholder="Any Number 1" name="val1" />
+	<select id="symbol" name="sign">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+	</select>
+	<label>Put a Number</label>
+		<input type="text" id="value2" value="" placeholder="Any Number 2" name="val2"/>
+
+		<input type="submit"  value="Click Here" />
+	</form>
+</div>
